@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Cor Navbar*/
+.navbar{
+    background-color: #381f3d;
+    font-size: 20px;
+}
+
+
+/*Style do carrossel*/
+.carrossel{
+    background-color: #ffb53e;
+    height: 30rem;
+
+}
+
+.texto-carrossel{
+    padding: 15px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.servicos{
+    background-color: #FFEFD6;
+    padding:  0 0 2rem 0;
+}
+
+.titulo{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+    
+}
+
+.nossos-servicos2{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.imagens-servicos{
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.texto-servico{
+    padding: 15px;
+    text-align: center;
+}
+
+.quem-somos{
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
