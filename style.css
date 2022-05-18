@@ -3,6 +3,11 @@
     margin: 0;
     border: 0;
     font-family: 'Quicksand', sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 /*Cor Navbar*/
@@ -14,7 +19,7 @@
 
 /*Style do carrossel*/
 .carrossel{
-    background-color: #ffb53e;
+    background-color: #ff6500;
     height: 30rem;
 
 }
@@ -59,4 +64,77 @@
     margin: auto;
     text-align: center;
     padding: 1rem;
+}
+
+.leia-mais{
+    text-decoration: none;
+    color: #fff;
+}
+
+.leia-mais:hover{
+    color: #fff;
+}
+
+.linha{
+    background-color: #381f3d;
+}
+
+.linha2{
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+    height: 10px;
+}
+
+.linha hr{
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+    height: 5px;
+    border-radius: 10px;
+    top: 0;
+}
+
+.rodape{
+    height: 33em;
+    min-width: 100%;
+    background: #381f3d;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+}
+
+.rodape li{
+    background-color: #381f3d;
+    border: 0;
+    text-align: center;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+
+.icones{
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.desenvolvedor{
+    width: 100%;
+    height: 1.5em;
+    background-color: #fff;
+    bottom: 0;
+    padding: 0;
+    color: #381f3d;
+    margin: auto;
+    text-align: center;
+    position: relative;
+
+    
 }
