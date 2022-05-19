@@ -20,7 +20,9 @@ html{
 /*Style do carrossel*/
 .carrossel{
     background-color: #ff6500;
-    height: 30rem;
+    min-width: 32rem;
+    height: 33rem;
+    opacity: 70%;
 
 }
 
@@ -33,7 +35,11 @@ html{
 .servicos{
     background-color: #FFEFD6;
     padding:  0 0 2rem 0;
+    top: 0;
+    position: relative;
 }
+
+
 
 .titulo{
     padding: 20px;
@@ -50,9 +56,20 @@ html{
     
 }
 
+.colunas{
+    padding: 2rem;
+    transition: 2s;
+}
+
 .imagens-servicos{
-    border-radius: 1rem;
+    
     margin-top: 1rem;
+    width: 4rem;
+}
+
+.imagens-servicos:hover{
+    width: 4.5rem;
+    transition: 0.5s;
 }
 
 .texto-servico{
@@ -83,17 +100,12 @@ html{
     margin: 0 auto;
     padding: 0;
     width: 75%;
-    height: 10px;
+    height: 0.3rem;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
-.linha hr{
-    margin: 0 auto;
-    padding: 0;
-    color: #fff;
-    height: 5px;
-    border-radius: 10px;
-    top: 0;
-}
+
 
 .rodape{
     height: 33em;
@@ -116,7 +128,6 @@ html{
     color: #fff;
     
 }
-
 
 
 .icones{
