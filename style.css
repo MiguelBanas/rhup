@@ -16,24 +16,21 @@ html{
     font-size: 20px;
 }
 
-
-/*Style do carrossel*/
-.carrossel{
-    background-color: #ff6500;
-    min-width: 32rem;
-    height: 33rem;
-    opacity: 70%;
-
+.banner{
+    margin-top: 2rem;
 }
 
-.texto-carrossel{
-    padding: 15px;
-    font-weight: 900;
-    font-size: 1.5rem;
+.imgbaner{
+    width: 100%;
+    
 }
 
+.quemsomos{
+    width: 100%;
+    height: 100%;
+}
 .servicos{
-    background-color: #FFEFD6;
+    background-color: #D4D2CF;
     padding:  0 0 2rem 0;
     top: 0;
     position: relative;
@@ -53,6 +50,8 @@ html{
 .nossos-servicos2{
     margin: auto;
     text-align: center;
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -81,71 +80,80 @@ html{
     margin: auto;
     text-align: center;
     padding: 1rem;
+    width: 100%;
+    height: 100%;
 }
 
-.leia-mais{
-    text-decoration: none;
-    color: #fff;
+.imagem-lista{
+    padding: 4rem 0;
 }
-
-.leia-mais:hover{
-    color: #fff;
-}
-
-.linha{
-    background-color: #381f3d;
-}
-
-.linha2{
-    margin: 0 auto;
-    padding: 0;
-    width: 75%;
-    height: 0.3rem;
-    background-color: #fff;
-    border-radius: 10px;
-}
-
-
-
 .rodape{
-    height: 33em;
+    margin-top: 3rem;
     min-width: 100%;
     background: #381f3d;
     position: relative;
     bottom: 0;
     left: 0;
+
+    
+}
+
+.container-rodape{
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container-rodape li{
+    color: #fff;
+    
+}
+
+.lista-rodape{
+    padding: 1rem;
+}
+
+.lista-rodape li{
+    color: #fff;
+
+}
+
+.lista-rodape a{
+    text-decoration: none;
     color: #fff;
 }
 
 .rodape li{
+    margin-top: 1rem;
     background-color: #381f3d;
     border: 0;
     text-align: center;
 }
 
-.rodape a{
-    text-decoration: none;
+
+.contato{
+    margin-top: 2rem;
     color: #fff;
-    
 }
 
+.img-fone{
+    padding: 0.5rem;
+}
 
 .icones{
-    margin: auto;
-    align-items: center;
-    padding: 20px;
+    padding: 0.5rem;
 }
+
 
 .desenvolvedor{
-    width: 100%;
-    height: 1.5em;
     background-color: #fff;
-    bottom: 0;
-    padding: 0;
-    color: #381f3d;
-    margin: auto;
     text-align: center;
-    position: relative;
-
-    
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
+
+
+
+
